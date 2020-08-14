@@ -1,0 +1,163 @@
+/* For smaller desktop screens and potentially tablets (iPads)*/
+@media only screen and (max-width: 1030px) {
+
+	/* ===============
+		    INDEX
+	   =============== */
+
+	.content {
+		padding: 20px 30px;
+		background-color: var(--lightgrey);
+		margin: 20px auto;
+	}
+
+	.white-background {
+		width: 90%;
+		margin: 30px auto;
+		padding: 30px 60px 30px 60px;
+	}
+
+	#board-wrapper {
+		padding-top: 60px;
+	}
+
+	h1 {
+		font-size: 50px
+	}
+
+	/* Nav */
+	a.top-nav, .dropdown {
+		display: inline-block;
+		font-size: 16px;
+		padding: 8px 6px;
+		margin: 0 5px;
+	}
+
+	/* Index */
+
+	#welcome {
+		padding: 0;
+		flex-direction: column;
+	}
+
+	#welcome-flex-left, #welcome-flex-right {
+		flex: 0;
+	}
+
+	#welcome-flex-left {
+		padding: 20px 20px 20px 20px;
+		/* margin-bottom: 10px; */
+		margin: auto;
+		margin-left:0%;
+	}
+
+	#welcome-flex-right {
+		/* display: none; */
+		margin: auto;
+	}
+
+	#welcome-flex-right img {
+		width: 40%;
+		margin: 30px 0px 60px 0px;
+	}
+
+	#feed {
+		flex-direction: column;
+	}
+
+	#feed-flex-right {
+		order: 1;
+		display: flex;
+		/* margin-bottom: 0; */
+	}
+
+	#feed-flex-left {
+		order: 2;
+		/* margin-top: 0; */
+	}
+
+	#feed-tags {
+		margin-left: 60px;
+		/* padding-right: 0; */
+	}
+
+	#search-criteria {
+		margin-top: 0;
+	}
+
+	/* ===============
+		    MY WORKS
+	   =============== */
+
+	 .worksFlex #img1 {
+ 		padding: 40% 15% 0% 0%;
+ 	}
+
+}
+
+@media screen and (max-width: 1000px) {
+	.column-gal {
+		flex: 33%;
+		max-width: 33%;
+	}
+
+	.worksFlex #img1 {
+		padding: 48% 15% 0% 0%;
+	}
+
+	.worksFlex #img2 {
+		padding: 50% 0% 0% 13%;
+	}
+
+	.worksFlex #img3 {
+		padding: 65% 13% 0% 0%;
+	}
+
+	.worksFlex #img4 {
+		width: 80%;
+		padding: 3% 0% 0% 10%;
+	}
+
+	.worksFlex #img5 {
+		padding: 45% 11% 0% 0%;
+	}
+
+}
+
+@media screen and (max-width: 800px) {
+	.column-gal {
+	   flex: 50%;
+	   max-width: 50%;
+	 }
+
+	.worksFlex {
+		display: none;
+	}
+
+	.works-left, .works-right {
+		width: 100%;
+	}
+
+	.responsive-print {
+		display: flex;
+		flex-direction: column;
+		margin-bottom: 130px;
+	}
+
+	.responsive-print img {
+		width: 100%;
+	}
+
+	.responsive-print hr {
+		width: 20%;
+	}
+
+	.responsive-print h2 {
+		text-align: center;
+	}
+
+	.boardtext {
+		padding-top: 0;
+		padding-bottom: 0;
+	}
+}

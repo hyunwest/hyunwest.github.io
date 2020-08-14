@@ -1,0 +1,190 @@
+/* For a range of mobile phone screen sizes */
+@media only screen and (max-width: 600px) {
+
+	.column-gal {
+    flex: 100%;
+    max-width: 100%;
+  }
+
+	/* General */
+	#cudap-logo img {
+		width: 300px;
+	}
+
+	h1 {
+		font-size: 35px;
+	}
+
+	.content {
+		margin: 20px auto;
+	}
+
+	.white-background {
+		margin: 20px 0;
+		padding: 25px;
+		width: 100%;
+	}
+
+	.center-text {
+		text-align: left;
+	}
+
+	nav {
+		padding: 0 20px;
+	}
+
+	/* Index */
+	#welcome {
+		width: 100%;
+		text-align: center;
+		padding: 0;
+		margin: 0;
+	}
+
+	#feedsection h1 {
+		color: var(--blue);
+		font-size: 30px;
+		text-align:left;
+		font-weight:bold;
+		margin: 10% 0% 0% 10%;
+		font-family: 'Oxygen', sans-serif;
+	}
+
+	#feed-tags {
+		display: none;
+	}
+
+	#feed-listserv {
+		display: none;
+	}
+
+	.post {
+		margin: 30px 30px;
+	}
+
+	h6.date-ribbon {
+		width: 100%;
+	}
+
+	#tenposts {
+		font-size: 14px;
+	}
+
+	/* My Works */
+	#board-wrapper {
+		padding-top: 50px;
+	}
+
+	.worksFlex {
+		display: none;
+	}
+
+	.works-left, .works-right {
+		width: 100%;
+	}
+
+	.responsive-print {
+		display: flex;
+		flex-direction: column;
+		margin-bottom: 100px;
+	}
+
+	.responsive-print img {
+		width: 100%;
+	}
+
+	.responsive-print hr {
+		width: 20%;
+	}
+
+	.responsive-print h2 {
+		text-align: center;
+	}
+
+	.boardtext {
+		padding-top: 0;
+	}
+
+	.work-bottom #iframe {
+		height: 200px;
+	}
+
+
+	/* Events */
+	table {
+		width: 250px;
+		font-size: 10px;
+	}
+
+	table td {
+		padding: 5px;
+	}
+
+	/* Gallery */
+	#category-buttons button {
+		margin-right: 10px;
+		margin-bottom: 10px;
+	}
+
+	/* Learn */
+	#main-div .column {
+		flex: 100%;
+	}
+
+	/* Resources */
+	.resource-div {
+		flex-direction: column;
+	}
+
+	.resource-flex-right {
+		border-left: none;
+		margin-top: 40px;
+	}
+
+	.indent {
+		text-indent: 0;
+	}
+
+	/* Contact */
+	.contactpage {
+		margin-bottom: 15px;
+	}
+
+	.flex-div {
+		flex-direction: column;
+	}
+
+	.flex-left, .flex-right {
+		padding: 10px 10px 30px 10px;
+	}
+
+	.flex-left {
+		border-right: none;
+	}
+
+	.flex-right textarea {
+		width: 100%;
+	}
+
+	/* Footer */
+	footer {
+		flex-direction: column;
+	}
+
+	#footer-center {
+		font-size: 6px;
+	}
+
+	#footer-right {
+		text-align: center;
+		margin-top: 20px;
+	}
+
+}
+
+@media only screen and (max-width: 320px) {
+
+	h1 {
+		font-size: 30px;
+	}
+}
